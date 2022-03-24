@@ -11,10 +11,10 @@ int main()
     pole[0] = a1;
     printf("pole[0] = %i\n", a1);
     
-    for(int x = 1; x < n; x++){
-       pole[x] = a1 + d;
+    for(int i = 1; i < n; i++){
+       pole[i] = a1 + d;
        a1 = a1 + d;
-        printf("pole[%i] = %i\n", x, pole[x]);
+        printf("pole[%i] = %i\n", i, pole[i]);
     }
 
     return 0;
